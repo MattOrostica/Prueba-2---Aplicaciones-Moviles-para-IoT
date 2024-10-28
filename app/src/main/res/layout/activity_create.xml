@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondoceleste"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el Nombre" />
+
+    <EditText
+        android:id="@+id/etVelocidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese la Velocidad" />
+
+    <EditText
+        android:id="@+id/etEstado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el Estado On/Of"
+        />
+
+    <Button
+        android:id="@+id/buttonAgregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar Ventilador"
+        android:background="@color/material_dynamic_primary80"
+        android:drawableStart="@drawable/add"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

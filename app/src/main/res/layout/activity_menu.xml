@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/fondoceleste"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Bienvenido al Menú"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+    android:id="@+id/btnCrear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Agregar ventilador"
+        android:background="@color/white"
+        android:drawableStart="@drawable/create"
+    android:layout_marginTop="16dp" />
+
+<Button
+    android:id="@+id/btnLeer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Ver Ventiladores"
+    android:background="@color/white"
+    android:drawableStart="@drawable/eyes"
+    android:layout_marginTop="16dp" />
+
+<Button
+android:id="@+id/btnActualizar"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Actualizar"
+    android:background="@color/white"
+    android:drawableStart="@drawable/update"
+android:layout_marginTop="16dp" />
+
+<Button
+android:id="@+id/btnEliminar"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Eliminar"
+    android:background="@color/material_dynamic_primary80"
+    android:drawableStart="@drawable/delete"
+android:layout_marginTop="16dp" />
+    </LinearLayout>

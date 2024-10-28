@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/fondoceleste"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre nuevo" />
+
+    <EditText
+        android:id="@+id/etVelocidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Velocidad Del Ventilador" />
+
+    <EditText
+        android:id="@+id/etEstado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Estado On/Off" />
+
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Ventilador"
+        android:background="@color/white"
+        android:drawableStart="@drawable/update"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
